@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookGenius Pro - AI-Powered Publishing Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <img src="https://via.placeholder.com/40" alt="BookGenius Pro Logo" class="logo">
+                <h1>BookGenius Pro</h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li class="active">
+                        <a href="#dashboard">
+                            <i class="fas fa-home"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <i class="fas fa-book"></i>
+                            <span>My Projects</span>
+                            <span class="badge">5</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#create">
+                            <i class="fas fa-magic"></i>
+                            <span>Create New Book</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#research">
+                            <i class="fas fa-search"></i>
+                            <span>Market Research</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#analytics">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Analytics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#templates">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Templates</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#team">
+                            <i class="fas fa-users"></i>
+                            <span>Team Collaboration</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings">
+                            <i class="fas fa-cog"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="upgrade-banner">
+                <h3>Pro Features</h3>
+                <p>Unlock advanced AI capabilities and unlimited projects</p>
+                <button class="btn-upgrade">Upgrade Now</button>
+            </div>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search books, projects, or settings...">
+                </div>
+                
+                <div class="user-actions">
+                    <button class="btn-notification">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">3</span>
+                    </button>
+                    <button class="btn-help">
+                        <i class="fas fa-question-circle"></i>
+                    </button>
+                    <div class="user-profile">
+                        <img src="images/admin.jpg" alt="User Profile">
+                        <span>John Author</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Dashboard Content -->
+            <section class="dashboard-content">
+                <div class="welcome-banner">
+                    <div class="welcome-text">
+                        <h2>Welcome back, John!</h2>
+                        <p>Ready to create your next bestseller? Let's get started!</p>
+                    </div>
+                    <div class="quick-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-book-open"></i>
+                            <div>
+                                <h3>12</h3>
+                                <p>Active Projects</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-chart-bar"></i>
+                            <div>
+                                <h3>4,328</h3>
+                                <p>Monthly Sales</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-dollar-sign"></i>
+                            <div>
+                                <h3>$8,742</h3>
+                                <p>Estimated Revenue</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Actions -->
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <div class="action-grid">
+                        <button class="action-card">
+                            <i class="fas fa-plus-circle"></i>
+                            <span>New Book</span>
+                        </button>
+                        <button class="action-card">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Content</span>
+                        </button>
+                        <button class="action-card">
+                            <i class="fas fa-palette"></i>
+                            <span>Cover Design</span>
+                        </button>
+                        <button class="action-card">
+                            <i class="fas fa-search-dollar"></i>
+                            <span>Market Research</span>
+                        </button>
+                        <button class="action-card">
+                            <i class="fas fa-file-export"></i>
+                            <span>Publish</span>
+                        </button>
+                        <button class="action-card">
+                            <i class="fas fa-users-cog"></i>
+                            <span>Team</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Recent Projects -->
+                <div class="recent-projects">
+                    <div class="section-header">
+                        <h3>Recent Projects</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-cover" style="background-color: #FF9E9E;">
+                                <img src="https://via.placeholder.com/150x200" alt="Book Cover">
+                            </div>
+                            <div class="project-info">
+                                <h4>The AI Writer's Handbook</h4>
+                                <p>Non-Fiction • 85% Complete</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%;"></div>
+                                </div>
+                                <div class="project-actions">
+                                    <button><i class="fas fa-edit"></i></button>
+                                    <button><i class="fas fa-chart-line"></i></button>
+                                    <button><i class="fas fa-share-alt"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-cover" style="background-color: #A1E5AB;">
+                                <img src="https://via.placeholder.com/150x200" alt="Book Cover">
+                            </div>
+                            <div class="project-info">
+                                <h4>Children's Adventure</h4>
+                                <p>Children's Book • Ready to Publish</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 100%;"></div>
+                                </div>
+                                <div class="project-actions">
+                                    <button><i class="fas fa-edit"></i></button>
+                                    <button><i class="fas fa-chart-line"></i></button>
+                                    <button><i class="fas fa-share-alt"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-cover" style="background-color: #9ED2FF;">
+                                <img src="https://via.placeholder.com/150x200" alt="Book Cover">
+                            </div>
+                            <div class="project-info">
+                                <h4>Sci-Fi Novel</h4>
+                                <p>Fiction • 45% Complete</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 45%;"></div>
+                                </div>
+                                <div class="project-actions">
+                                    <button><i class="fas fa-edit"></i></button>
+                                    <button><i class="fas fa-chart-line"></i></button>
+                                    <button><i class="fas fa-share-alt"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-cover" style="background-color: #FFD166;">
+                                <img src="https://via.placeholder.com/150x200" alt="Book Cover">
+                            </div>
+                            <div class="project-info">
+                                <h4>Adult Coloring Book</h4>
+                                <p>Coloring Book • Published</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 100%; background-color: #4CAF50;"></div>
+                                </div>
+                                <div class="project-actions">
+                                    <button><i class="fas fa-edit"></i></button>
+                                    <button><i class="fas fa-chart-line"></i></button>
+                                    <button><i class="fas fa-share-alt"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Enhanced Features Section -->
+                <div class="enhanced-features">
+                    <h3>Enhanced Features <span class="pro-badge">PRO</span></h3>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <i class="fas fa-brain"></i>
+                            <h4>Advanced AI Writer</h4>
+                            <p>Our enhanced AI understands context better and can write in your unique voice.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-globe"></i>
+                            <h4>Global Distribution</h4>
+                            <p>Publish to 15+ platforms worldwide with a single click.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-comments-dollar"></i>
+                            <h4>Royalty Calculator</h4>
+                            <p>Predict your earnings across different platforms and pricing models.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-video"></i>
+                            <h4>Video Book Trailers</h4>
+                            <p>Create professional book trailers with our AI video generator.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-mail-bulk"></i>
+                            <h4>Email Campaigns</h4>
+                            <p>Automated email sequences to build your author platform.</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-audio-description"></i>
+                            <h4>Audiobook Creator</h4>
+                            <p>Convert your book to audiobook with realistic AI narration.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Market Insights -->
+                <div class="market-insights">
+                    <div class="section-header">
+                        <h3>Market Insights</h3>
+                        <div class="time-filter">
+                            <select>
+                                <option>Last 7 Days</option>
+                                <option>Last 30 Days</option>
+                                <option>Last 90 Days</option>
+                                <option>Custom Range</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="insights-container">
+                        <div class="insights-chart">
+                            <canvas id="marketTrendsChart"></canvas>
+                        </div>
+                        <div class="insights-list">
+                            <div class="insight-item">
+                                <div class="trend-indicator up">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <span>24%</span>
+                                </div>
+                                <div class="insight-info">
+                                    <h4>AI Writing Guides</h4>
+                                    <p>Demand increasing in Non-Fiction category</p>
+                                </div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="trend-indicator down">
+                                    <i class="fas fa-arrow-down"></i>
+                                    <span>12%</span>
+                                </div>
+                                <div class="insight-info">
+                                    <h4>Vampire Romance</h4>
+                                    <p>Declining interest in Fiction category</p>
+                                </div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="trend-indicator up">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <span>42%</span>
+                                </div>
+                                <div class="insight-info">
+                                    <h4>Mindfulness Coloring</h4>
+                                    <p>Hot niche in Activity Books category</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
